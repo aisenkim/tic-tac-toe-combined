@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/ttt
+      uri: mongodb+srv://tttuser:tttpassword@cluster0.mbof3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
       database: ttt
 
   mail:
